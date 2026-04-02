@@ -38,20 +38,6 @@ export default function Hero() {
         ))}
       </div>
 
-      {/* Floating brain logo */}
-      <motion.div
-        className="absolute right-8 top-1/2 -translate-y-1/2 opacity-10 hidden xl:block"
-        animate={{ y: [0, -14, 0] }}
-        transition={{ duration: 6, repeat: Infinity, ease: 'easeInOut' }}
-      >
-        <img
-          src={`${import.meta.env.BASE_URL}assets/logo.jpeg`}
-          alt=""
-          aria-hidden="true"
-          className="w-80 h-80 object-contain filter brightness-200"
-        />
-      </motion.div>
-
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         {/* Badge */}

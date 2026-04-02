@@ -16,7 +16,7 @@ export default function Hero() {
     >
       {/* Background */}
       <div className="absolute inset-0 bg-gradient-to-br from-slate-900 via-teal-900 to-brand-darker" />
-      <div className="absolute inset-0 bg-[url('/assets/building1.jpeg')] bg-cover bg-center opacity-10" />
+      <div className="absolute inset-0 bg-cover bg-center opacity-10" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}assets/building1.jpeg)` }} />
 
       {/* Animated neural network circles */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
@@ -45,7 +45,7 @@ export default function Hero() {
         transition={{ duration: 6, repeat: Infinity, ease: 'easeInOut' }}
       >
         <img
-          src="/assets/logo.jpeg"
+          src={`${import.meta.env.BASE_URL}assets/logo.jpeg`}
           alt=""
           aria-hidden="true"
           className="w-80 h-80 object-contain filter brightness-200"

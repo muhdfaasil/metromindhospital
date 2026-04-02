@@ -75,7 +75,7 @@ export default function Footer() {
           <div>
             <a href="#home" onClick={e => { e.preventDefault(); handleNav('#home') }} className="flex items-center gap-3 mb-5" aria-label="Metro Mind Hospital">
               <img
-                src="/assets/logo.jpeg"
+                src={`${import.meta.env.BASE_URL}assets/logo.jpeg`}
                 alt="Metro Mind Hospital Logo"
                 className="w-12 h-12 rounded-full ring-2 ring-brand/40 object-cover"
                 width="48"

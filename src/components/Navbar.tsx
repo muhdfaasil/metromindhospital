@@ -48,7 +48,7 @@ export default function Navbar() {
             aria-label="Metro Mind Hospital Home"
           >
             <img
-              src="/assets/logo.jpeg"
+              src={`${import.meta.env.BASE_URL}assets/logo.jpeg`}
               alt="Metro Mind Hospital Logo"
               className="h-10 w-10 rounded-full object-cover ring-2 ring-brand/30"
               width="40"

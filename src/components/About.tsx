@@ -30,7 +30,7 @@ export default function About() {
               <div className="space-y-4">
                 <div className="rounded-2xl overflow-hidden shadow-xl aspect-[4/5]">
                   <img
-                    src="/assets/building1.jpeg"
+                    src={`${import.meta.env.BASE_URL}assets/building1.jpeg`}
                     alt="Metro Mind Hospital exterior — modern facility in Kochi"
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                     loading="lazy"
@@ -40,7 +40,7 @@ export default function About() {
                 </div>
                 <div className="rounded-2xl overflow-hidden shadow-lg aspect-square">
                   <img
-                    src="/assets/pharmacy.jpeg"
+                    src={`${import.meta.env.BASE_URL}assets/pharmacy.jpeg`}
                     alt="Metro Mind Hospital 24/7 pharmacy and reception area"
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                     loading="lazy"
@@ -52,7 +52,7 @@ export default function About() {
               <div className="space-y-4 pt-8">
                 <div className="rounded-2xl overflow-hidden shadow-lg aspect-square">
                   <img
-                    src="/assets/building2.jpeg"
+                    src={`${import.meta.env.BASE_URL}assets/building2.jpeg`}
                     alt="Metro Mind Hospital entrance, South Kalamassery Kochi"
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                     loading="lazy"
@@ -62,7 +62,7 @@ export default function About() {
                 </div>
                 <div className="rounded-2xl overflow-hidden shadow-xl aspect-[4/5]">
                   <img
-                    src="/assets/building3.jpeg"
+                    src={`${import.meta.env.BASE_URL}assets/building3.jpeg`}
                     alt="Metro Mind Neuropsychiatry Hospital building"
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                     loading="lazy"

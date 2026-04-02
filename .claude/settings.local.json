@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:metromindhospitals.com)",
+      "Bash(npm --version)",
+      "Bash(npm create:*)",
+      "Bash(npx --yes create-vite@5 metromindhospital-temp --template react-ts)",
+      "Bash(mkdir -p /home/fazil/metromindhospital/public/assets)",
+      "Bash(cp \"/home/fazil/Pictures/assets/WhatsApp Image 2026-04-01 at 3.10.44PM.jpeg\" /home/fazil/metromindhospital/public/assets/logo.jpeg)",
+      "Bash(cp \"/home/fazil/Pictures/assets/WhatsApp Image 2026-04-01 at 3.10.44 PM \\(1\\).jpeg\" /home/fazil/metromindhospital/public/assets/building1.jpeg)",
+      "Bash(cp \"/home/fazil/Pictures/assets/WhatsApp Image 2026-04-01 at 3.10.44 PM \\(2\\).jpeg\" /home/fazil/metromindhospital/public/assets/building2.jpeg)",
+      "Bash(cp \"/home/fazil/Pictures/assets/WhatsApp Image 2026-04-01 at 3.10.44 PM \\(3\\).jpeg\" /home/fazil/metromindhospital/public/assets/building3.jpeg)",
+      "Bash(npm install:*)",
+      "Bash(npx tailwindcss@3 init -p)",
+      "Bash(npm run:*)",
+      "Bash(node:*)",
+      "Bash(curl -s -A \"Mozilla/5.0 \\(Windows NT 10.0; Win64; x64\\) AppleWebKit/537.36\" https://metromindhospitals.com/)",
+      "Bash(curl -s -I https://metromindhospitals.com/robots.txt)",
+      "Bash(curl -s -I https://metromindhospitals.com/sitemap.xml)",
+      "Bash(curl:*)",
+      "Bash(python3:*)",
+      "WebFetch(domain:maps.app.goo.gl)",
+      "Bash(git init:*)",
+      "Bash(git config:*)",
+      "Bash(git branch:*)",
+      "Bash(git remote:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)"
+    ]
+  }
+}
